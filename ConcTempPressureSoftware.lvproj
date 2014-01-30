@@ -1,5 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="11008008">
+	<Property Name="varPersistentID:{35085DBE-7937-40AD-820F-ABB0BEDBE0DC}" Type="Ref">/My Computer/CPCconc.lvlib/CavityPressure</Property>
+	<Property Name="varPersistentID:{6FBBF44C-86C2-465E-8049-048BACC34980}" Type="Ref">/My Computer/CPCconc.lvlib/CavityTemperature</Property>
 	<Property Name="varPersistentID:{A18C3A3E-77E1-41AD-9CF6-9086388BD939}" Type="Ref">/My Computer/CPCconc.lvlib/CPCconc</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
