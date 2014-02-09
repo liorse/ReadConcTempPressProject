@@ -17,6 +17,14 @@
 		<Item Name="CPCReadlior.vi" Type="VI" URL="../CPCReadlior.vi"/>
 		<Item Name="OpenCPClior.vi" Type="VI" URL="../OpenCPClior.vi"/>
 		<Item Name="ReadConcTempPressureVer08.vi" Type="VI" URL="../ReadConcTempPressureVer08.vi"/>
+		<Item Name="Torr" Type="NI-DAQmx Scale">
+			<Property Name="Lin.Slope" Type="Str">100</Property>
+			<Property Name="Lin.YIntercept" Type="Str">0</Property>
+			<Property Name="Name" Type="Str">Torr</Property>
+			<Property Name="PreScaledUnits" Type="Str">Volts</Property>
+			<Property Name="ScaledUnits" Type="Str"></Property>
+			<Property Name="ScaleType" Type="Str">Linear</Property>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_jki_lib_state_machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
